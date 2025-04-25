@@ -18,7 +18,7 @@ class Customer{
 		Item missing;
 		
 		void getInput(){
-			cout << "Enter details of the missing item ">>endl;
+			cout << "Enter details of the missing item " << endl;
 			cout << "Brand Name: ";
 			getline(cin,missing.brand);
 			cout << "Category: ";
